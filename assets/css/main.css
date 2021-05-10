@@ -1690,13 +1690,44 @@ label {
 .s-btn {
   font-size: 12px;
   background: #ec6e39;
-  padding: 20px 38px;
-  border-radius: 30px;
+  padding: 18px 38px;
   color: #ffffff;
   text-transform: uppercase;
   display: inline-block;
   line-height: 1;
+  border-radius: 30px;
   letter-spacing: 1px;
+  border: 2px solid transparent;
+}
+
+.btn-border {
+  border-color: #d0d6d9;
+  background: transparent;
+  color: #121121;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.single-slider {
+  min-height: 1022px;
+}
+
+.fslider span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ec6e39;
+  display: block;
+  margin-bottom: 10px;
+}
+.fslider span i {
+  margin-right: 15px;
+}
+.fslider h2 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.slider-img img {
+  min-width: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */

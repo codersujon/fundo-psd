@@ -92,11 +92,19 @@
 .s-btn{
     font-size: 12px;
     background: $theme-color;
-    padding: 20px 38px;
-    border-radius: 30px;
+    padding: 18px 38px;
     color: $white;
     text-transform: uppercase;
     display: inline-block;
     line-height: 1;
+    border-radius: 30px;
     letter-spacing: 1px;
+    border: 2px solid transparent;
+}
+.btn-border{
+    border-color:#d0d6d9;
+    background: transparent;
+    color: $heading-color;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
