@@ -4,7 +4,6 @@
     left: 0;
     right: 0;  
 }
-
 .header-social{
     & a{
         font-size: 16px;
@@ -28,4 +27,44 @@
             margin-right: 5px;
         }
     }
+}
+.menu-bg{
+    padding: 0 40px;
+}
+.main-menu{
+    & nav{
+        & ul{
+            & li{
+                display: inline-block;
+                margin-left: 50px;
+                & a{
+                    display: block;
+                    padding: 45px 0;
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: $heading-color;
+                    text-transform: uppercase;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+}
+.header-btn{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+
+//Button
+.s-btn{
+    font-size: 12px;
+    background: $theme-color;
+    padding: 20px 38px;
+    border-radius: 30px;
+    color: $white;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+    letter-spacing: 1px;
 }

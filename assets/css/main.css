@@ -1634,4 +1634,39 @@ label {
   margin-right: 5px;
 }
 
+.menu-bg {
+  padding: 0 40px;
+}
+
+.main-menu nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.main-menu nav ul li a {
+  display: block;
+  padding: 45px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #121121;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.header-btn {
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+.s-btn {
+  font-size: 12px;
+  background: #ec6e39;
+  padding: 20px 38px;
+  border-radius: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
 /*# sourceMappingURL=main.css.map */
