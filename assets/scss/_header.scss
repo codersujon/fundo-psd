@@ -9,6 +9,7 @@
         font-size: 16px;
         color: $body-text-color;
         margin-right: 15px;
+        transition: .3s;
         &:hover{
             color: $theme-color;
         }
@@ -20,6 +21,7 @@
         font-weight: 900;
         color:$body-text-color;
         text-transform: uppercase;
+        transition: .3s;
         &:hover{
             color: $theme-color;
         }
@@ -37,6 +39,26 @@
             & li{
                 display: inline-block;
                 margin-left: 50px;
+                position: relative;
+                & .sub-menu{
+                    position: absolute;
+                    top: 105%;
+                    left: 0;
+                    width: 240px;
+                    background: $white;
+                    padding: 15px 25px;
+                    border-top: 4px solid $theme-color;
+                    transition: .3s;
+                    opacity: 0;
+                    visibility: hidden;
+                    & li{
+                        display: block;
+                        margin: 0;
+                        & a{
+                            padding: 12px 0;
+                        }
+                    }
+                }
                 & a{
                     display: block;
                     padding: 45px 0;
@@ -46,7 +68,17 @@
                     text-transform: uppercase;
                     line-height: 1;
                 }
-            }
+                &:hover >{
+                    & a{
+                        color: $theme-color;
+                    }
+                    & .sub-menu{
+                        opacity: 1;
+                        visibility: visible;
+                        top: 100%;
+                    }
+                }
+            } 
         }
     }
 }

@@ -1616,6 +1616,7 @@ label {
   font-size: 16px;
   color: #899399;
   margin-right: 15px;
+  transition: 0.3s;
 }
 .header-social a:hover {
   color: #ec6e39;
@@ -1626,6 +1627,7 @@ label {
   font-weight: 900;
   color: #899399;
   text-transform: uppercase;
+  transition: 0.3s;
 }
 .user-login a:hover {
   color: #ec6e39;
@@ -1641,6 +1643,26 @@ label {
 .main-menu nav ul li {
   display: inline-block;
   margin-left: 50px;
+  position: relative;
+}
+.main-menu nav ul li .sub-menu {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 240px;
+  background: #ffffff;
+  padding: 15px 25px;
+  border-top: 4px solid #ec6e39;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.main-menu nav ul li .sub-menu li {
+  display: block;
+  margin: 0;
+}
+.main-menu nav ul li .sub-menu li a {
+  padding: 12px 0;
 }
 .main-menu nav ul li a {
   display: block;
@@ -1650,6 +1672,14 @@ label {
   color: #121121;
   text-transform: uppercase;
   line-height: 1;
+}
+.main-menu nav ul li:hover > a {
+  color: #ec6e39;
+}
+.main-menu nav ul li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
 }
 
 .header-btn {
