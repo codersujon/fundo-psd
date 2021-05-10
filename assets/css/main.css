@@ -66,6 +66,10 @@ a:focus,
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus,
 a:hover {
   color: inherit;
@@ -1609,17 +1613,22 @@ label {
 }
 
 .header-social a {
-  color: #899399;
   font-size: 16px;
+  color: #899399;
   margin-right: 15px;
+}
+.header-social a:hover {
+  color: #ec6e39;
 }
 
 .user-login a {
   font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   color: #899399;
-  text-decoration: none;
+  text-transform: uppercase;
+}
+.user-login a:hover {
+  color: #ec6e39;
 }
 .user-login a i {
   margin-right: 5px;

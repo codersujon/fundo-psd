@@ -1,0 +1,31 @@
+.header-transparent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;  
+}
+
+.header-social{
+    & a{
+        font-size: 16px;
+        color: $body-text-color;
+        margin-right: 15px;
+        &:hover{
+            color: $theme-color;
+        }
+    }
+}
+.user-login{
+    & a{
+        font-size: 12px;
+        font-weight: 900;
+        color:$body-text-color;
+        text-transform: uppercase;
+        &:hover{
+            color: $theme-color;
+        }
+        & i{
+            margin-right: 5px;
+        }
+    }
+}
