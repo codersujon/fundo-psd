@@ -87,7 +87,6 @@
     margin-left: 40px;
 }
 
-
 //Button
 .s-btn{
     font-size: 12px;
@@ -96,10 +95,15 @@
     color: $white;
     text-transform: uppercase;
     display: inline-block;
+    font-weight: 700;
     line-height: 1;
     border-radius: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     border: 2px solid transparent;
+    &:hover{
+        background-color: $heading-color;
+        color: $white;
+    }
 }
 .btn-border{
     border-color:#d0d6d9;
@@ -107,4 +111,8 @@
     color: $heading-color;
     letter-spacing: 2px;
     font-weight: 700;
+    &:hover{
+        background-color: $theme-color;
+        border-color: $theme-color;
+    }
 }
