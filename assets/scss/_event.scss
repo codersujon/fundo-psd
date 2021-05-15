@@ -1,0 +1,40 @@
+.events-bg {
+    padding: 50px;
+
+    & .events-date {
+        background: #ec6e39;
+        padding: 40px;
+        display: inline-block;
+
+        & h2 {
+            color: $white;
+            font-size: 60px;
+            display: inline-block;
+            line-height: 1;
+            margin: 0;
+
+            & span {
+                display: block;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin-top: 5px;
+            }
+        }
+    }
+
+    & .events-text {
+        & span {
+            font-size: 16px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        & h2 {
+            font-size: 36px;
+            letter-spacing: -.3px;
+            margin-bottom: 10px;
+        }
+
+        & p {}
+    }
+}

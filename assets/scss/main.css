@@ -34,9 +34,6 @@ body {
 .img, img {
   max-width: 100%;
   -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -55,9 +52,6 @@ body {
 a,
 .button {
   -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 
@@ -195,7 +189,20 @@ label {
 /*--
     - Input Placeholder
 -----------------------------------------*/
-*::-moz-placeholder {
+
+*::-webkit-input-placeholder {
+  color: #222;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #222;
+  font-size: 14px;
+  opacity: 1;
+}
+
+*::-ms-input-placeholder {
   color: #222;
   font-size: 14px;
   opacity: 1;
@@ -1552,6 +1559,7 @@ label {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 [data-overlay]::before {
   position: absolute;
   left: 0;
@@ -1562,11 +1570,11 @@ label {
 }
 
 /*-- Overlay Color --*/
-[data-overlay=light]::before {
+[data-overlay="light"]::before {
   background-color: #ffffff;
 }
 
-[data-overlay=dark]::before {
+[data-overlay="dark"]::before {
   background-color: #222;
 }
 
@@ -1610,6 +1618,7 @@ label {
 .section-title {
   position: relative;
 }
+
 .section-title h6 {
   color: #ec6e39;
   text-transform: uppercase;
@@ -1618,12 +1627,14 @@ label {
   position: relative;
   z-index: 9;
 }
+
 .section-title h2 {
   font-size: 70px;
   letter-spacing: -3px;
   position: relative;
   z-index: 9;
 }
+
 .section-title .back-title {
   font-size: 250px;
   color: #efefef;
@@ -1647,8 +1658,10 @@ label {
   font-size: 16px;
   color: #899399;
   margin-right: 15px;
-  transition: 0.3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
+
 .header-social a:hover {
   color: #ec6e39;
 }
@@ -1658,11 +1671,14 @@ label {
   font-weight: 900;
   color: #899399;
   text-transform: uppercase;
-  transition: 0.3s;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
+
 .user-login a:hover {
   color: #ec6e39;
 }
+
 .user-login a i {
   margin-right: 5px;
 }
@@ -1676,6 +1692,7 @@ label {
   margin-left: 50px;
   position: relative;
 }
+
 .main-menu nav ul li .sub-menu {
   position: absolute;
   top: 105%;
@@ -1684,17 +1701,21 @@ label {
   background: #ffffff;
   padding: 15px 25px;
   border-top: 4px solid #ec6e39;
-  transition: 0.3s;
+  -webkit-transition: .3s;
+  transition: .3s;
   opacity: 0;
   visibility: hidden;
 }
+
 .main-menu nav ul li .sub-menu li {
   display: block;
   margin: 0;
 }
+
 .main-menu nav ul li .sub-menu li a {
   padding: 12px 0;
 }
+
 .main-menu nav ul li a {
   display: block;
   padding: 45px 0;
@@ -1704,9 +1725,11 @@ label {
   text-transform: uppercase;
   line-height: 1;
 }
+
 .main-menu nav ul li:hover > a {
   color: #ec6e39;
 }
+
 .main-menu nav ul li:hover > .sub-menu {
   opacity: 1;
   visibility: visible;
@@ -1731,6 +1754,7 @@ label {
   letter-spacing: 2px;
   border: 2px solid transparent;
 }
+
 .s-btn:hover {
   background-color: #121121;
   color: #ffffff;
@@ -1743,6 +1767,7 @@ label {
   letter-spacing: 2px;
   font-weight: 700;
 }
+
 .btn-border:hover {
   background-color: #ec6e39;
   border-color: #ec6e39;
@@ -1759,9 +1784,11 @@ label {
   display: block;
   margin-bottom: 10px;
 }
+
 .fslider span i {
   margin-right: 15px;
 }
+
 .fslider h2 {
   font-size: 80px;
   font-weight: 600;
@@ -1781,12 +1808,15 @@ label {
   line-height: 1.3;
   margin-bottom: 30px;
 }
+
 .fabout__text p {
   margin-bottom: 25px;
 }
+
 .fabout__links a {
   font-weight: 700;
 }
+
 .fabout__links a:hover {
   color: #ec6e39;
 }
@@ -1794,33 +1824,9 @@ label {
 .events-bg {
   padding: 50px;
 }
-.events-bg .events-date {
+
+.events-date {
   background: #ec6e39;
   padding: 40px;
-  display: inline-block;
 }
-.events-bg .events-date h2 {
-  color: #ffffff;
-  font-size: 60px;
-  display: inline-block;
-  line-height: 1;
-  margin: 0;
-}
-.events-bg .events-date h2 span {
-  display: block;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin-top: 5px;
-}
-.events-bg .events-text span {
-  font-size: 16px;
-  margin-bottom: 10px;
-  display: block;
-}
-.events-bg .events-text h2 {
-  font-size: 36px;
-  letter-spacing: -0.3px;
-  margin-bottom: 10px;
-}
-
 /*# sourceMappingURL=main.css.map */
