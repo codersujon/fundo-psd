@@ -1822,5 +1822,63 @@ label {
   letter-spacing: -0.3px;
   margin-bottom: 10px;
 }
+.fservices {
+  margin-bottom: 30px;
+}
+.fservices__img {
+  position: relative;
+}
+.fservices__img img {
+  width: 100%;
+}
+.fservices__img-icon {
+  background: #ffffff;
+  padding: 20px 50px;
+  border: 2px solid #e5e6ec;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  border-radius: 50px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 46px;
+}
+.fservices__img-icon a {
+  margin-right: 30px;
+  color: #e5e6ec;
+  font-size: 14px;
+}
+.fservices__img-icon a:last-child {
+  margin: 0;
+}
+.fservices__content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  border: 2px solid #e5e6ec;
+  border-top: 0;
+}
+.fservices__content h3 a {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+.fservices__content p {
+  font-size: 15px;
+}
+.fservices__content-author {
+  border-top: 2px solid #f8f8f8;
+  padding-top: 15px;
+  margin-top: 25px;
+}
+.fservices__content-author h4 {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.fservices__content-author span {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+}
 
 /*# sourceMappingURL=main.css.map */
