@@ -29,3 +29,8 @@
         line-height: 1;
     }
 }
+.section-title-white{
+    & h2 {
+       color: $white;
+    }
+}

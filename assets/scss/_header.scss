@@ -1,46 +1,54 @@
-.header-transparent{
+.header-transparent {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;  
+    right: 0;
 }
-.header-social{
-    & a{
+
+.header-social {
+    & a {
         font-size: 16px;
         color: $body-text-color;
         margin-right: 15px;
         transition: .3s;
-        &:hover{
+
+        &:hover {
             color: $theme-color;
         }
     }
 }
-.user-login{
-    & a{
+
+.user-login {
+    & a {
         font-size: 12px;
         font-weight: 900;
-        color:$body-text-color;
+        color: $body-text-color;
         text-transform: uppercase;
         transition: .3s;
-        &:hover{
+
+        &:hover {
             color: $theme-color;
         }
-        & i{
+
+        & i {
             margin-right: 5px;
         }
     }
 }
-.menu-bg{
+
+.menu-bg {
     padding: 0 40px;
 }
-.main-menu{
-    & nav{
-        & ul{
-            & li{
+
+.main-menu {
+    & nav {
+        & ul {
+            & li {
                 display: inline-block;
                 margin-left: 50px;
                 position: relative;
-                & .sub-menu{
+
+                & .sub-menu {
                     position: absolute;
                     top: 105%;
                     left: 0;
@@ -51,15 +59,18 @@
                     transition: .3s;
                     opacity: 0;
                     visibility: hidden;
-                    & li{
+
+                    & li {
                         display: block;
                         margin: 0;
-                        & a{
+
+                        & a {
                             padding: 12px 0;
                         }
                     }
                 }
-                & a{
+
+                & a {
                     display: block;
                     padding: 45px 0;
                     font-size: 12px;
@@ -68,27 +79,30 @@
                     text-transform: uppercase;
                     line-height: 1;
                 }
-                &:hover >{
-                    & a{
+
+                &:hover> {
+                    & a {
                         color: $theme-color;
                     }
-                    & .sub-menu{
+
+                    & .sub-menu {
                         opacity: 1;
                         visibility: visible;
                         top: 100%;
                     }
                 }
-            } 
+            }
         }
     }
 }
-.header-btn{
+
+.header-btn {
     margin-top: 25px;
     margin-left: 40px;
 }
 
 //Button
-.s-btn{
+.s-btn {
     font-size: 12px;
     background: $theme-color;
     padding: 18px 38px;
@@ -97,22 +111,29 @@
     display: inline-block;
     font-weight: 700;
     line-height: 1;
-    border-radius: 30px;
+    border-radius: 50px;
     letter-spacing: 2px;
     border: 2px solid transparent;
-    &:hover{
+
+    &:hover {
         background-color: $heading-color;
         color: $white;
     }
 }
-.btn-border{
-    border-color:#d0d6d9;
+
+.btn-border {
+    border-color: #d0d6d9;
     background: transparent;
     color: $heading-color;
     letter-spacing: 2px;
     font-weight: 700;
-    &:hover{
+
+    &:hover {
         background-color: $theme-color;
         border-color: $theme-color;
     }
+}
+
+.btn-lg {
+    padding: 25px 65px;
 }
