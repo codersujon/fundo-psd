@@ -1,0 +1,36 @@
+.features-area {
+    & .features {
+        margin-bottom: 50px;
+
+        &__icon {
+            position: relative;
+
+            & img {
+                position: absolute;
+            }
+        }
+
+        &__text {
+            margin-left: 100px;
+
+            & h3 {
+                font-size: 24px;
+                margin-bottom: 26px;
+            }
+
+            & p {
+                margin-bottom: 20px;
+                padding-right: 82px;
+            }
+
+            & a {
+                font-weight: 700;
+                color: $link;
+
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+}

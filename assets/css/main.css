@@ -1946,4 +1946,32 @@ label {
   appearance: none;
 }
 
+.features-area .features {
+  margin-bottom: 50px;
+}
+.features-area .features__icon {
+  position: relative;
+}
+.features-area .features__icon img {
+  position: absolute;
+}
+.features-area .features__text {
+  margin-left: 100px;
+}
+.features-area .features__text h3 {
+  font-size: 24px;
+  margin-bottom: 26px;
+}
+.features-area .features__text p {
+  margin-bottom: 20px;
+  padding-right: 82px;
+}
+.features-area .features__text a {
+  font-weight: 700;
+  color: #7f7d9f;
+}
+.features-area .features__text a:hover {
+  color: #ec6e39;
+}
+
 /*# sourceMappingURL=main.css.map */
