@@ -231,7 +231,7 @@ label {
 }
 
 .black-bg {
-  background: #222;
+  background: #121121;
 }
 
 .theme-bg {
@@ -1972,6 +1972,29 @@ label {
 }
 .features-area .features__text a:hover {
   color: #ec6e39;
+}
+
+.fact-area .fact {
+  border-right: 2px solid #232239;
+}
+.fact-area .fact__icon img {
+  margin-bottom: 20px;
+}
+.fact-area .fact__text h2 {
+  color: #ffffff;
+  font-size: 70px;
+  margin-bottom: 0;
+}
+.fact-area .fact__text h2 span {
+  color: #ec6e39;
+  font-size: 30px;
+}
+.fact-area .fact__text span {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #7f7d9f;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */

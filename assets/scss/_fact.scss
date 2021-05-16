@@ -1,0 +1,32 @@
+.fact-area {
+    & .fact {
+        border-right: 2px solid #232239;
+
+        &__icon {
+            & img {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__text {
+            & h2 {
+                color: $white;
+                font-size: 70px;
+                margin-bottom: 0;
+
+                & span {
+                    color: $theme-color;
+                    font-size: 30px;
+                }
+            }
+
+            & span {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                color: $link;
+                font-weight: 700;
+            }
+        }
+    }
+}
