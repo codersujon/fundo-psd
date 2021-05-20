@@ -1,0 +1,35 @@
+.single-blog {
+    margin-bottom: 30px;
+    & img {
+        width: 100%;
+    }
+
+    & .single-blog_content {
+        padding: 40px 46px;
+
+        & span {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            display: block;
+            color: $theme-color;
+        }
+
+        & h3 {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        &>a {
+            color: $theme-color;
+            font-weight: 600;
+        }
+    }
+}

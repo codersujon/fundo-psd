@@ -2020,6 +2020,7 @@ label {
   letter-spacing: 2px;
   display: block;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 .test-nav-width {
@@ -2035,6 +2036,37 @@ label {
 
 .slick-slide.slick-current.slick-active.slick-center {
   transform: scale(1.5);
+}
+
+.single-blog {
+  margin-bottom: 30px;
+}
+.single-blog img {
+  width: 100%;
+}
+.single-blog .single-blog_content {
+  padding: 40px 46px;
+}
+.single-blog .single-blog_content span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  display: block;
+  color: #ec6e39;
+}
+.single-blog .single-blog_content h3 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.single-blog .single-blog_content p {
+  margin-bottom: 20px;
+}
+.single-blog .single-blog_content > a {
+  color: #ec6e39;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=main.css.map */
