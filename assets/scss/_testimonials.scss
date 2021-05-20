@@ -1,0 +1,48 @@
+.testimonial {
+    & img {
+        display: inline-block;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    & p {
+        font-size: 26px;
+        color: $link;
+        line-height: 40px;
+        padding: 0 65px;
+    }
+
+    & h3 {
+        font-size: 26px;
+        text-transform: capitalize;
+
+        & span {
+            font-size: 14px;
+            color: $theme-color;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
+
+.test-nav-width {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    & .test-thumb {
+        & img {
+            display: inline-block;
+            transform: scale(0.8);
+            transition: .3s;
+        }
+    }
+}
+
+
+.slick-slide.slick-current.slick-active.slick-center {
+    transform: scale(1.5);
+}

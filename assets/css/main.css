@@ -1997,4 +1997,44 @@ label {
   font-weight: 700;
 }
 
+.testimonial img {
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonial p {
+  font-size: 26px;
+  color: #7f7d9f;
+  line-height: 40px;
+  padding: 0 65px;
+}
+.testimonial h3 {
+  font-size: 26px;
+  text-transform: capitalize;
+}
+.testimonial h3 span {
+  font-size: 14px;
+  color: #ec6e39;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  margin-top: 10px;
+}
+
+.test-nav-width {
+  width: 290px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.test-nav-width .test-thumb img {
+  display: inline-block;
+  transform: scale(0.8);
+  transition: 0.3s;
+}
+
+.slick-slide.slick-current.slick-active.slick-center {
+  transform: scale(1.5);
+}
+
 /*# sourceMappingURL=main.css.map */
