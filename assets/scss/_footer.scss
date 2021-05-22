@@ -32,6 +32,7 @@
     & .footer-post {
         & .single-footer-post {
             margin-bottom: 30px;
+
             & span {
                 font-size: 12px;
                 text-transform: uppercase;
@@ -56,25 +57,42 @@
     }
 }
 
-.copright-area{
-    & .copyright{
-        & p{
+.copright-area {
+
+    & .copyright {
+        @media #{$xs} {
+            text-align: center;
+        }
+
+        & p {
             color: $footer-text;
-            & a{
+
+            & a {
                 font-weight: 700;
                 color: $theme-color;
                 text-transform: uppercase;
             }
         }
     }
-    & .footer-social{
+
+    & .footer-social {
         text-align: right;
-        & a{
+
+        @media #{$xs} {
+            text-align: center;
+        }
+
+        & a {
             font-size: 14px;
             margin-left: 15px;
             color: $theme-color;
             transition: .3s;
-            &:hover{
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:hover {
                 color: $footer-text;
             }
         }

@@ -15,6 +15,14 @@
         letter-spacing: -3px;
         position: relative;
         z-index: 9;
+
+        @media #{$md} {
+            font-size: 60px;
+        }
+
+        @media #{$xs} {
+            font-size: 40px;
+        }
     }
 
     & .back-title {
@@ -27,10 +35,19 @@
         font-family: $merri;
         font-style: italic;
         line-height: 1;
+
+        @media #{$md} {
+            font-size: 150px;
+        }
+
+        @media #{$xs} {
+            font-size: 70px;
+        }
     }
 }
-.section-title-white{
+
+.section-title-white {
     & h2 {
-       color: $white;
+        color: $white;
     }
 }

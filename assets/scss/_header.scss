@@ -5,6 +5,12 @@
     right: 0;
 }
 
+.header-top {
+    @media #{$xs} {
+        text-align: center;
+    }
+}
+
 .header-social {
     & a {
         font-size: 16px;
@@ -19,6 +25,11 @@
 }
 
 .user-login {
+    @media #{$xs} {
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
     & a {
         font-size: 12px;
         font-weight: 900;
@@ -38,6 +49,10 @@
 
 .menu-bg {
     padding: 0 40px;
+
+    @media #{$xs} {
+        padding: 10px;
+    }
 }
 
 .main-menu {
@@ -103,6 +118,17 @@
 .header-btn {
     margin-top: 25px;
     margin-left: 40px;
+    margin-bottom: 25px;
+
+    @media #{$md} {
+        margin-right: 100px;
+    }
+
+    @media #{$sm} {
+        margin-right: 40px;
+        float: left;
+    }
+
 }
 
 //Button
@@ -140,4 +166,14 @@
 
 .btn-lg {
     padding: 25px 65px;
+}
+
+.mean-container a.meanmenu-reveal {
+    @media #{$xs} {
+        margin-top: -46px;
+    }
+
+    @media #{$sm} {
+        margin-top: -75px;
+    }
 }

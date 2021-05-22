@@ -7,10 +7,24 @@
             max-width: 100%;
             margin-left: 0px;
         }
+
+        @media #{$md} {
+            max-width: 100%;
+            margin-left: 0px;
+        }
+
+        @media #{$xs} {
+            max-width: 100%;
+            margin-left: 0px;
+        }
     }
 }
 
 .fabout {
+    @media #{$xs} {
+        text-align: center;
+    }
+
     &__icon {
         @media #{$lg} {
             margin-bottom: 20px;
@@ -36,7 +50,8 @@
         & p {
             margin-bottom: 25px;
 
-            @media #{$lg} {
+            @media #{$lg},
+            #{$xs} {
                 & br {
                     display: none;
                 }

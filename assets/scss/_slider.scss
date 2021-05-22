@@ -8,9 +8,25 @@
     @media #{$lg} {
         min-height: 800px;
     }
+
+    @media #{$md} {
+        min-height: 700px;
+    }
+
+    @media #{$xs} {
+        min-height: 600px;
+    }
 }
 
 .fslider {
+    @media #{$md} {
+        margin-bottom: 110px;
+    }
+
+    @media #{$xs} {
+        margin-bottom: 110px;
+    }
+
     & span {
         font-size: 18px;
         font-weight: 600;
@@ -29,6 +45,10 @@
 
         @media #{$lg} {
             font-size: 55px;
+        }
+
+        @media #{$xs} {
+            font-size: 40px;
         }
     }
 }

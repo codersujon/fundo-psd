@@ -2,6 +2,14 @@
     & .fact {
         border-right: 2px solid #232239;
 
+        @media #{$md} {
+            border-right: 0;
+        }
+
+        @media #{$xs} {
+            border-right: 0;
+        }
+
         &__icon {
             & img {
                 margin-bottom: 20px;

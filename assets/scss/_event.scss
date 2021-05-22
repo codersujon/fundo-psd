@@ -2,9 +2,15 @@
     padding: 50px;
 
     & .events-date {
-        background: #ec6e39;
+        background: $theme-color;
         padding: 40px;
         display: inline-block;
+
+        @media #{$xs} {
+            float: none;
+            margin-bottom: 20px;
+            padding: 25px;
+        }
 
         & h2 {
             color: $white;
@@ -33,6 +39,10 @@
             font-size: 36px;
             letter-spacing: -.3px;
             margin-bottom: 10px;
+
+            @media #{$xs} {
+                font-size: 25px;
+            }
         }
 
         & p {}

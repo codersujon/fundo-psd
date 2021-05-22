@@ -11,6 +11,23 @@
         color: $link;
         line-height: 40px;
         padding: 0 65px;
+
+        @media #{$md} {
+            padding: 0 50px;
+
+            & br {
+                display: none;
+            }
+        }
+
+        @media #{$xs} {
+            padding: 0;
+            font-size: 20px;
+
+            & br {
+                display: none;
+            }
+        }
     }
 
     & h3 {

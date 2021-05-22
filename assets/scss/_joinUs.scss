@@ -28,13 +28,13 @@
                 color: $white;
 
                 &::-moz-placeholder {
-                    color: #86859b;
+                    color: $link;
                     font-size: 14px;
                     opacity: 1;
                 }
 
                 &::placeholder {
-                    color: #86859b;
+                    color: $link;
                     font-size: 14px;
                     opacity: 1;
                 }
