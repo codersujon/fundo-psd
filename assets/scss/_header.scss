@@ -48,6 +48,10 @@
                 margin-left: 50px;
                 position: relative;
 
+                @media #{$lg} {
+                    margin-left: 20px;
+                }
+
                 & .sub-menu {
                     position: absolute;
                     top: 105%;
