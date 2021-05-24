@@ -30,6 +30,7 @@
         float: none;
         margin-top: 10px;
     }
+
     & a {
         font-size: 12px;
         font-weight: 900;
@@ -130,6 +131,91 @@
     }
 
 }
+
+
+// HEADER TRANSPARENT 2
+.header-transparent-2 {
+    & .menu-bg {
+        border: 2px solid $white;
+    }
+
+    & .main-menu {
+        & nav {
+            & ul {
+                & li {
+                    & a {
+                        color: $white;
+                    }
+
+                    & .sub-menu {
+                        & li {
+                            & a {
+                                color: #222;
+                            }
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+    .user-login{
+        & a {
+            font-size: 12px;
+            font-weight: 900;
+            color: #fff;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+    }
+}
+
+.header-cta {
+    margin-right: 2px;
+    & i {
+        color: $theme-color;
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+    & span {
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        display: block;
+        font-size: 12px;
+    }
+
+    & h5 {
+        font-size: 18px;
+        color: $white;
+        text-transform: capitalize;
+        margin-left: 30px;
+        font-weight: 400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //Button
 .s-btn {
