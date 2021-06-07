@@ -2160,26 +2160,6 @@ label {
   background: #ec6e39;
 }
 
-.fundo-pagination a {
-  font-size: 14px;
-  font-weight: 700;
-  width: 35px;
-  height: 35px;
-  border: 2px solid #eaebec;
-  line-height: 30px;
-  display: inline-block;
-  border-radius: 50%;
-  text-align: center;
-  color: #b7bdc5;
-  margin-right: 10px;
-  transition: 0.3s;
-}
-.fundo-pagination a:hover {
-  background: #ec6e39;
-  color: #ffffff;
-  border-color: transparent;
-}
-
 .join-us-area .join-form form {
   position: relative;
   z-index: 1;
@@ -2380,6 +2360,56 @@ label {
 .single-blog .single-blog_content > a {
   color: #ec6e39;
   font-weight: 600;
+}
+
+.widget {
+  border: 2px solid #e3e3e3;
+  padding: 40px 30px;
+}
+.widget__title {
+  position: relative;
+}
+.widget__title h3 {
+  display: inline-block;
+  position: relative;
+  padding: 0 35px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.widget__title h3:before, .widget__title h3:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 40px;
+  background: #e3e3e3;
+  left: -35px;
+  top: 18px;
+}
+.widget__title h3:after {
+  left: auto;
+  right: -35px;
+}
+.widget__search {
+  position: relative;
+}
+.widget__search input {
+  width: 100%;
+  height: 60px;
+  background: #f9f7ff;
+  border: 0;
+  padding: 0 30px;
+  color: #000;
+}
+.widget__search button {
+  position: absolute;
+  right: 0;
+  border: 0;
+  width: 60px;
+  height: 100%;
+  background: #ec6e39;
+  color: #ffffff;
+  font-size: 14px;
+  top: 0;
 }
 
 .footer-widget {
@@ -2586,6 +2616,26 @@ label {
 .contact-form-box .contact-filed textarea {
   height: 250px;
   padding: 25px 30px;
+}
+
+.fundo-pagination a {
+  font-size: 14px;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #eaebec;
+  line-height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  color: #b7bdc5;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.fundo-pagination a:hover {
+  background: #ec6e39;
+  color: #ffffff;
+  border-color: #ec6e39;
 }
 
 /*# sourceMappingURL=main.css.map */

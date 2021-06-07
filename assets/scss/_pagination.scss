@@ -1,0 +1,22 @@
+.fundo-pagination {
+    & a {
+        font-size: 14px;
+        font-weight: 700;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #eaebec;
+        line-height: 35px;
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        color: #b7bdc5;
+        margin-right: 10px;
+        transition: .3s;
+
+        &:hover {
+            background: $theme-color;
+            color: $white;
+            border-color: $theme-color;
+        }
+    }
+}

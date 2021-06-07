@@ -140,26 +140,3 @@
         }
     }
 }
-
-
-.fundo-pagination {
-    & a {
-        font-size: 14px;
-        font-weight: 700;
-        width: 35px;
-        height: 35px;
-        border: 2px solid #eaebec;
-        line-height: 30px;
-        display: inline-block;
-        border-radius: 50%;
-        text-align: center;
-        color: #b7bdc5;
-        margin-right: 10px;
-        transition: .3s;
-        &:hover{
-            background: $theme-color;
-            color: $white;
-            border-color: transparent;
-        }
-    }
-}
