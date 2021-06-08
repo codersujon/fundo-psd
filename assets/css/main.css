@@ -2160,6 +2160,82 @@ label {
   background: #ec6e39;
 }
 
+.fservice-details .fservice-details-img img {
+  width: 100%;
+}
+.fservice-details .fservice-details-content {
+  box-shadow: 0px 8px 16px 0px rgba(127, 127, 127, 0.1);
+  position: relative;
+  margin: 0 30px;
+  margin-top: 0px;
+  background: #ffffff;
+  margin-top: -120px;
+  padding: 40px;
+}
+.fservice-details .fservice-details-content span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ec6e39;
+  margin-bottom: 30px;
+  display: block;
+  font-weight: 700;
+}
+.fservice-details .fservice-details-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.fservice-details .fservice-details-content p {
+  color: #7f7d9f;
+  margin-bottom: 30px;
+}
+.fservice-details .fservice-details-content .post-comment h3 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed {
+  position: relative;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed::after {
+  position: absolute;
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  right: 28px;
+  top: 18px;
+  font-size: 14px;
+  color: #5b6471;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed.post-icon-user::after {
+  content: "";
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed.post-icon-mail::after {
+  content: "";
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed.post-icon-web::after {
+  content: "";
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed textarea, .fservice-details .fservice-details-content .post-comment form .post-filed input {
+  width: 100%;
+  height: 146px;
+  border: 2px solid #e5e5e5;
+  padding: 22px 28px;
+  margin-bottom: 20px;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed textarea::-moz-placeholder, .fservice-details .fservice-details-content .post-comment form .post-filed input::-moz-placeholder {
+  color: #7f7d9f;
+  font-size: 14px;
+  opacity: 1;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed textarea::placeholder, .fservice-details .fservice-details-content .post-comment form .post-filed input::placeholder {
+  color: #7f7d9f;
+  font-size: 14px;
+  opacity: 1;
+}
+.fservice-details .fservice-details-content .post-comment form .post-filed input {
+  height: 58px;
+}
+
 .join-us-area .join-form form {
   position: relative;
   z-index: 1;

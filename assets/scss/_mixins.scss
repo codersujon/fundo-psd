@@ -7,7 +7,17 @@
 }
 
 @mixin transform($value) {
-  -webkit-transform: $value;
-      -ms-transform: $value;
-          transform: $value;
+	-webkit-transform: $value;
+	-ms-transform: $value;
+	transform: $value;
+}
+
+@mixin date-style {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: $theme-color;
+	margin-bottom: 30px;
+	display: block;
+	font-weight: 700;
 }
